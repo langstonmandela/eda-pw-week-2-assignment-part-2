@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We've created a variable called name and set it equal to Dane. We then proceed to hit it with some conditional formatting.
+// If name equals Mary then the console log should output 'Hi, Mary!' as a string.
+// If it doesn't match Mary completely as the === indicates then the console log output
+//will read as follows: How do you do?, which will also be a string
+//In this case since Dane is not equal to Mary then the console will output option 2: How do you do?
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We've created the variable secret
+// We've created the variable code and set it to equal 123
+// When then implement conditional formatting stating that if code equals 123 then secret equals 'super'
+//This piece of conditional formatting says that if the variable "code" is less than 250, 
+//which it now is since we've set the value of code to 246, resulting in a console log output of 'super'
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We've created a variable "isStudent" and set it to a bolean equaling true
+// We've created the variable age and set it equal to the number 34
+//We've created the variable zip and set it equal to 55407
+// if both isStudent equals true which it currently does and zip is greater than 80000(which it is not) 
+//then the console log will be 'You're a student on the West Coast!`. Otherwise if isStudent is equal to false OR age is greater
+//than 30 then the console log should display as follows: What are your hobbies?
+//if isStudent equals true which is currently is, then the console log output should be: Welcome to Prime!
 
 //CODE
 /*
@@ -136,6 +141,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple'; // FIX - this would need to be added in order for this code to function correctly 
 }
 */
 
@@ -147,7 +153,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) { // FIX - we need to switch or ( || ) with and (&&) for this code to function as described above.
   console.log('throw away the food!');
 }
 */
@@ -160,10 +166,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
+if(minAge <= age) { 
+  console.log('no entry'); // FIX - change from 'no entry' to 'enter'
 } else {
-  console.log('enter');
+  console.log('enter'); // FIX - change from 'enter' to 'no entry'
 }
 */
 
